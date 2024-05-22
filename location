@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de Voitures - RS3 et BMW F40</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .car {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2em;
+        }
+        .car img {
+            max-width: 100%;
+            height: auto;
+        }
+        .car-details {
+            flex: 1;
+            padding: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Location de Voitures - RS3 et BMW F40</h1>
+    </header>
+    <nav>
+        <a href="#rs3">RS3</a>
+        <a href="#bmw-f40">BMW F40</a>
+    </nav>
+    <div class="container">
+        <section id="rs3" class="car">
+            <img src="https://www.example.com/rs3.jpg" alt="Audi RS3">
+            <div class="car-details">
+                <h2>Audi RS3</h2>
+                <p>L'Audi RS3 est une voiture de sport compacte avec un moteur puissant et une tenue de route exceptionnelle. Parfaite pour les amateurs de vitesse et de sensations fortes.</p>
+                <p><strong>Prix de location :</strong> 200€/jour</p>
+                <button>Réserver maintenant</button>
+            </div>
+        </section>
+        <section id="bmw-f40" class="car">
+            <img src="https://www.example.com/bmw-f40.jpg" alt="BMW F40">
+            <div class="car-details">
+                <h2>BMW F40</h2>
+                <p>La BMW F40 est une voiture de luxe avec un design élégant et des performances de haut niveau. Idéale pour ceux qui cherchent à combiner confort et sportivité.</p>
+                <p><strong>Prix de location :</strong> 250€/jour</p>
+                <button>Réserver maintenant</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Location de Voitures. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
